@@ -140,7 +140,7 @@ img {
   line-height: 130%;
   text-align: left;
   margin-bottom: 1.5rem;
-  padding-left: 3rem;
+  /*padding-left: 3rem;*/
 }
 
 .section__title3 {
@@ -484,7 +484,7 @@ img {
   color: var(--text-color-test1);
   font-size: var(--h3-font-size);
   font-weight: 500;
-  padding-left: 3rem;
+  /*padding-left: 3rem;*/
 }
 
 .about__img_container{
