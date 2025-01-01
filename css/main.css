@@ -1639,5 +1639,14 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%; /* 화면 크기에 맞게 조정 */
+  max-width: 70%; /* 화면 크기에 맞게 조정 */
+}
+
+@media (max-width: 575px) {
+  .modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; /* 화면 크기에 맞게 조정 */
+  }
 }
