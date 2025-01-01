@@ -545,7 +545,7 @@ img {
 }
 
 .steps__img {
-  width: 130px;
+ /* width: 130px; */
   filter: drop-shadow(0 4px 8px hsl(6, 8%, 48%));
   transition: transform .3s;
   border-radius: 10%;
@@ -855,7 +855,7 @@ img {
   .steps__content {
     grid-template-columns: 400px;
     justify-content: center;
-    padding-left: 8rem;
+    /*padding-left: 8rem; */
   }
   
 }
