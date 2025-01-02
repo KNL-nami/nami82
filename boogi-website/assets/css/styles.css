@@ -885,7 +885,7 @@ img {
   }
   .home__subtitle {
     margin-left: 0;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
   }
   .home__title {
     text-align: center;
