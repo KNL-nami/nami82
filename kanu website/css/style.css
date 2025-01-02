@@ -678,12 +678,6 @@ ss
     }
 }
 
-@media (max-width:480px){
-    .group1 .coffee1 li {
-        width: 100%; 
-       
-    }
-}
 
 @media (max-width:768px){
     #menu-btn{display: inline-block;}
@@ -855,6 +849,7 @@ ss
 
 
 
+
     .box1 h1{
         font-size: 1.8rem;}
     .box1_left .text_box h1{
@@ -922,5 +917,34 @@ ss
             
 }
 
+@media (max-width:480px){
+    .group1 .coffee1 li {
+        width: 100%; 
+       
+    }
 
+    .home .inner .text_box-test{
+        position: relative;
+        top: 4rem;
+        left: -5rem;
+    }
+
+    .home .inner .text_box-test h1{
+        font-size: 5rem;
+        color: #fff;
+        line-height: 5rem;
+    }
+
+    .home .inner .text_box-test h2{
+        font-size: 3.3rem;
+        color: #fff;
+        line-height: 3rem;
+    }
+
+    .home .inner .text_box-test p{
+        font-size: 1.5rem;
+        padding-bottom: 4rem;
+        color: #fff;
+    }
+}
 
