@@ -658,6 +658,24 @@ ss
         left: -14rem;
         text-align: left;
     }
+
+    .home .inner .text_box-test h1{
+        font-size: 7.5rem;
+        color: #fff;
+        line-height: 6rem;
+    }
+
+    .home .inner .text_box-test h2{
+        font-size: 5rem;
+        color: #fff;
+        line-height: 6rem;
+    }
+
+    .home .inner .text_box-test p{
+        font-size: 2.2rem;
+        padding-bottom: 4rem;
+        color: #fff;
+    }
 }
 
 @media (max-width:480px){
@@ -707,23 +725,22 @@ ss
     }
 
     .home .inner .text_box-test h1{
-        font-size: 7.5rem;
+        font-size: 6rem;
         color: #fff;
         line-height: 6rem;
     }
 
     .home .inner .text_box-test h2{
-        font-size: 5rem;
+        font-size: 4rem;
         color: #fff;
-        line-height: 6rem;
+        line-height: 4rem;
     }
 
     .home .inner .text_box-test p{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         padding-bottom: 4rem;
         color: #fff;
     }
-
 
     .box1{
         display: flex;
@@ -836,23 +853,7 @@ ss
         left: -7rem;
     }
 
-    .home .inner .text_box-test h1{
-        font-size: 6rem;
-        color: #fff;
-        line-height: 6rem;
-    }
 
-    .home .inner .text_box-test h2{
-        font-size: 4rem;
-        color: #fff;
-        line-height: 4rem;
-    }
-
-    .home .inner .text_box-test p{
-        font-size: 1.8rem;
-        padding-bottom: 4rem;
-        color: #fff;
-    }
 
     .box1 h1{
         font-size: 1.8rem;}
