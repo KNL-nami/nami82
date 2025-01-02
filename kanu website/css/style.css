@@ -34,7 +34,7 @@ ul li a:hover{
     color: #f3364c;}
 
 .inner{
-    /*-width: 1200px;*/
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -119,7 +119,7 @@ ul li a:hover{
     .home .inner .text_box-test{
         position: relative;
         top: 4rem;
-        left: -20rem;
+        left: 2rem;
         text-align: left;
     }
     
@@ -651,33 +651,14 @@ ss
 @media (max-width:991px){
     html{font-size: 55%;}
     .header{padding: 1.5rem 2rem;}
-
-    .home .inner .text_box-test{
-        position: relative;
-        top: 4rem;
-        left: -14rem;
-        text-align: left;
-    }
-
-    .home .inner .text_box-test h1{
-        font-size: 7.5rem;
-        color: #fff;
-        line-height: 6rem;
-    }
-
-    .home .inner .text_box-test h2{
-        font-size: 5rem;
-        color: #fff;
-        line-height: 6rem;
-    }
-
-    .home .inner .text_box-test p{
-        font-size: 2.2rem;
-        padding-bottom: 4rem;
-        color: #fff;
-    }
 }
 
+@media (max-width:480px){
+    .group1 .coffee1 li {
+        width: 100%; 
+       
+    }
+}
 
 @media (max-width:768px){
     #menu-btn{display: inline-block;}
@@ -711,30 +692,8 @@ ss
         right: 0;
     }
 
-    .home .inner .text_box-test{
-        position: relative;
-        top: 4rem;
-        left: -9rem;
-        text-align: left;
-    }
 
-    .home .inner .text_box-test h1{
-        font-size: 6rem;
-        color: #fff;
-        line-height: 6rem;
-    }
 
-    .home .inner .text_box-test h2{
-        font-size: 4rem;
-        color: #fff;
-        line-height: 4rem;
-    }
-
-    .home .inner .text_box-test p{
-        font-size: 1.8rem;
-        padding-bottom: 4rem;
-        color: #fff;
-    }
 
     .box1{
         display: flex;
@@ -843,12 +802,27 @@ ss
 
     .home .inner .text_box-test{
         position: relative;
-        top: 4rem;
-        left: -7rem;
+        top: 6rem;
+        left: 2rem;
     }
 
+    .home .inner .text_box-test h1{
+        font-size: 6rem;
+        color: #fff;
+        line-height: 6rem;
+    }
 
+    .home .inner .text_box-test h2{
+        font-size: 4rem;
+        color: #fff;
+        line-height: 4rem;
+    }
 
+    .home .inner .text_box-test p{
+        font-size: 1.6rem;
+        padding-bottom: 4rem;
+        color: #fff;
+    }
 
     .box1 h1{
         font-size: 1.8rem;}
@@ -917,34 +891,5 @@ ss
             
 }
 
-@media (max-width:480px){
-    .group1 .coffee1 li {
-        width: 100%; 
-       
-    }
 
-    .home .inner .text_box-test{
-        position: relative;
-        top: 4rem;
-        left: -5rem;
-    }
-
-    .home .inner .text_box-test h1{
-        font-size: 5rem;
-        color: #fff;
-        line-height: 5rem;
-    }
-
-    .home .inner .text_box-test h2{
-        font-size: 3.3rem;
-        color: #fff;
-        line-height: 3rem;
-    }
-
-    .home .inner .text_box-test p{
-        font-size: 1.5rem;
-        padding-bottom: 4rem;
-        color: #fff;
-    }
-}
 
